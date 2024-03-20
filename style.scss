@@ -1,0 +1,142 @@
+$blue: #100F3A;
+$grey: #F0F2F4;
+$primary: #100F3A;
+$secondary: #8583E1;
+$tertiary: rgb(37, 51, 95);
+$grey: #38434e;
+$grey-dark:  #080770;
+$white: white;
+$black: black;
+$pink: #FFA07F;
+
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.2em;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+hr{
+    background-color: $blue;
+    height: 2px;
+    border: none;
+ //   margin: -5px auto;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__left{
+        display: block;
+        width: 37%;
+        background-color: grey;
+
+        .section{
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+
+        .about{
+            background-color: #100F3A;
+            color: white;
+            padding-top: 10px;
+            margin: 0 auto;
+            padding-bottom: 10px;
+
+            h1{
+                margin-left: 15px;
+                font-size: 1.8em;
+                line-height: 1.3em;
+            }
+
+            span{
+                margin-left: 15px;
+                font-weight: bold;
+                font-size: 1.3em;
+            }
+
+            ul li{
+                list-style: none;
+                margin: 7px auto;
+               // padding-left: -10px;
+                margin-left: -15px;
+
+                i{
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .education{
+            display: block;
+            margin-bottom: 10px;
+
+            &__item{
+                strong{
+                    font-size: 1.6em;
+                }
+                span{
+                    font-weight: bold;
+                    color: $primary;
+                    font-size: 1.4em;
+                }
+
+                p{
+                    padding-left: 10px;
+                    i{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    &__right{
+        display: block;
+        width: 63%;
+        padding-left: 5px;
+
+        .box{
+            margin: auto auto 20px auto;
+            padding-right: 5px;
+
+            h2{
+                color: $blue;
+            }
+
+            h3{
+                font-size: 1.4em;
+            }
+
+            span{
+                font-weight: bold;
+            }
+
+            .details{
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: row;
+                padding-left: 10px;
+                width: 100%;
+                margin-left: 0;
+                    p{
+                        margin-left: 0;
+                    }
+            }
+
+            ul {
+                margin: 0px auto;
+                li{
+                    list-style: circle;
+                }
+            }
+        }
+    }
+}
