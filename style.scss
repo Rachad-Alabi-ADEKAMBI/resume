@@ -1,8 +1,5 @@
 $blue: #100F3A;
 $grey: #F0F2F4;
-$primary: #100F3A;
-$secondary: #8583E1;
-$tertiary: rgb(37, 51, 95);
 $grey: #38434e;
 $grey-dark:  #080770;
 $white: white;
@@ -22,8 +19,8 @@ html, body{
 hr{
     background-color: $blue;
     height: 2px;
+    margin-top: -15px;
     border: none;
- //   margin: -5px auto;
 }
 
 .content{
@@ -34,11 +31,13 @@ hr{
     &__left{
         display: block;
         width: 37%;
-        background-color: grey;
+        background-color: rgb(231, 224, 224);
+        line-height: 1.4em;
 
         .section{
             margin-left: 15px;
             margin-top: 10px;
+            margin-bottom: 10px;
         }
 
         .about{
@@ -74,16 +73,16 @@ hr{
 
         .education{
             display: block;
-            margin-bottom: 10px;
+            margin-top: -20px;
 
             &__item{
                 strong{
-                    font-size: 1.6em;
+                    font-size: 1.3em;
                 }
                 span{
                     font-weight: bold;
-                    color: $primary;
-                    font-size: 1.4em;
+                    color: $blue;
+                    font-size: 1.2em;
                 }
 
                 p{
@@ -104,7 +103,7 @@ hr{
         padding-left: 5px;
 
         .box{
-            margin: auto auto 20px auto;
+            margin: auto auto 16px auto;
             padding-right: 5px;
 
             h2{
@@ -121,13 +120,13 @@ hr{
 
             .details{
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: start;
                 flex-direction: row;
                 padding-left: 10px;
                 width: 100%;
                 margin-left: 0;
                     p{
-                        margin-left: 0;
+                        margin-left: 10px;
                     }
             }
 

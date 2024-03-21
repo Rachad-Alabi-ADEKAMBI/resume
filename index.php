@@ -41,7 +41,7 @@
                 <hr>
 
                 <div class="education__item">
-                    <strong>Computer science course</strong> <br>
+                    <strong>Computer science course</strong>
                     <span>Open classrooms</span>
                     <p> <i class="far fa-calendar"></i> 2020
                         <i class="fas fa-map-pin"></i> Remote
