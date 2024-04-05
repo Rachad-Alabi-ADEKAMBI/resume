@@ -30,14 +30,14 @@ hr{
 
     &__left{
         display: block;
-        width: 37%;
+        width: 35%;
         background-color: rgb(231, 224, 224);
         line-height: 1.4em;
 
         .section{
             margin-left: 15px;
-            margin-top: 10px;
-            margin-bottom: 10px;
+            margin-top: 5px;
+            margin-bottom: 5px;
         }
 
         .about{
@@ -99,7 +99,7 @@ hr{
 
     &__right{
         display: block;
-        width: 63%;
+        width: 60%;
         padding-left: 5px;
 
         .box{

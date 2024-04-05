@@ -24,7 +24,7 @@
                 </span>
 
                 <ul>
-                    <li><i class="fas fa-envelope"></i> adekambirachad@gmail.com <i></i></li>
+                    <li><i class="fas fa-envelope"></i> adekambirachad@gmail.com </li>
                     <li><i class="fas fa-phone"></i> +229 96228860</li>
                     <li><i class="fas fa-map-pin"></i> Cotonou, Benin republic</li>
                     <li><i class="fas fa-globe"></i> rachad-alabi-adekambi.github.io/portfolio</li>
@@ -59,12 +59,10 @@
                     <li>VuesJs</li>
                     <li>Flask</li>
                     <li>JavaScript</li>
-                    <li>PHP</li>
-                    <li>MYSQL</li>
+                    <li>PHP & MYSQL</li>
                     <li>Python</li>
-                    <li>HTML</li>
                     <li>WordPress</li>
-                    <li>CSS</li>
+                    <li>HTML & CSS</li>
                     <li>Git</li>
                     <li>AWS</li>
 
@@ -169,7 +167,7 @@
                 </div>
 
                 <ul>
-                    <li>Managed financial records and prepared financial statements</li>
+                    <li>Prepared financial records and financial statements</li>
                     <li>Performed budget analysis and cost control measures</li>
                     <li>Collaborated with auditors during financial audits</li>
                     <li>Provided financial insights and recommendations to management</li>
